@@ -1,0 +1,44 @@
+@media screen and (min-width: 700px) {
+    div.navbar {
+      display: show;
+    }
+    div.mobilenav {
+        display: none;
+    }
+  }
+@media screen and (max-width: 700px) {
+    div.navbar {
+      display: none;
+    }
+    div.mobilenav {
+        display: show;
+    }
+  }
+
+.navbar a{
+    float:left;
+    text-align: center;
+    color: white;
+
+}
+.container-fluid{
+    float: left;
+}
+.scores_table{
+    padding: 3rem ;
+    display: flex;
+    justify-content: center;
+}
+.scores_table >table {
+    empty-cells: show;
+    border-collapse:collapse;
+}
+
+.scores_table td{
+    font-size: 100%;    
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 1rem;
+
+}

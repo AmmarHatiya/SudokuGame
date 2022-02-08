@@ -14,6 +14,7 @@
         display: show;
     }
   }
+
 /*NAVBAR*/
 .navbar a{
     float:left;
@@ -21,32 +22,30 @@
     color: white;
 
 }
-.container-fluid{
-    float: left;
-}
+
+
 /*SUDOKU BOARD*/
 .board{
-    padding-top: 4rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: center;
 }
 .board > table{
     table-layout: fixed;
-    height: 50%;
-    width: 50%;
+    text-align: center;
+    width: 95%;
     empty-cells: show;
     border: 3px solid black;
     border-collapse:collapse;
 }
-.board tr{
-    height: 70px;
-}
 .board td{
-    font-size: 140%;    
+    font-size: 100%;    
     text-align: center;
-    padding: 1rem;
+    justify-content: center;
+    padding: 0px;
     border: thin solid black;
 }
+
 .board td:hover{
     background-color: #f5dd90;
 }
@@ -74,7 +73,7 @@
     color: rgb(88, 88, 88);
     display: table-cell;
     text-align: center;
-    padding: 1rem;
+    padding: 0rem;
     border: thin solid black;
 }
 .pallete td img{
