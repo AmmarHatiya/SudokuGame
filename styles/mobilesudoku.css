@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 700px) {
     div.navbar {
       display: show;
@@ -30,7 +31,7 @@
     display: flex;
     justify-content: center;
 }
-.board > table{
+.board table{
     table-layout: fixed;
     text-align: center;
     width: 95%;
@@ -45,30 +46,33 @@
     padding: 0px;
     border: thin solid black;
 }
+.board tr{
+    height: 70px;
+}
 
-.board td:hover{
+.board  td:hover{
     background-color: #f5dd90;
 }
 .board tr:nth-child(3n){
     border-bottom: 3px solid black;
 }
-.board td:nth-child(3n){
+.board  td:nth-child(3n){
     border-right: 3px solid black;
 }
 
 /*NUMBER PALLETE*/
-.pallete{
+#pallete{
     padding: 1rem;
     display: flex;
     justify-content: center;
 }
-.pallete table{
+#pallete table{
     table-layout: fixed;
     width: 650px;
     border: thin solid black;
     border-collapse:collapse;
 }
-.pallete td{
+#pallete td{
     font-size: 200%;
     color: rgb(88, 88, 88);
     display: table-cell;
@@ -76,14 +80,14 @@
     padding: 0rem;
     border: thin solid black;
 }
-.pallete td img{
+#pallete td img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
-.pallete td:hover{
+#pallete td:hover{
     background-color: #f5dd90;
 }
 

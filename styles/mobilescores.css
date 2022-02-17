@@ -50,3 +50,27 @@
     padding: 1rem;
 
 }
+
+#s_table{
+    margin: 5rem ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#s_table > table {
+    empty-cells: show;
+    border-collapse:collapse;
+    padding: 1rem;
+}
+
+#s_table td{
+    font-size: 100%;    
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+}
+#headerrow{
+    border-bottom: thin solid black;
+    padding: 1rem;
+}
