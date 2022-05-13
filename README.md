@@ -12,6 +12,6 @@ Uses: HTML5, CSS, Bootstrap, JavaScript
 ### High Scores (Sample Data)
 ![Scores](https://user-images.githubusercontent.com/45467347/168206591-316daa11-95d1-431c-9e28-9ee21b913904.PNG)
 
-Note: Board and Scores feature are not fully functional
+Note: Board feature is not fully functional
 
 
